@@ -1,0 +1,51 @@
+/* Colores personalizados */
+:root {
+    --primary-color: #e80202;
+    --secondary-color: #4f4f4f;
+    --background-color: #f8f8f8;
+}
+/* Estilos para Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .logo {
+    font-size: 32px;
+}
+.navbar .nav-items {
+    display: flex;
+}
+
+.navbar .nav-item {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar .nav-item:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
